@@ -12,10 +12,24 @@ There Python scripts doing simple data conversion
 
 ## Task 1
 
-Load the GreenTrip CSV data and convet to Parquet
-Running with command
+- Load the GreenTrip CSV data and convet to Parquet
+- Running with command
 
-- python csv2parquet.py
+```bash
+ python csv2parquet.py
+```
 
 Output result stored at:
 => dataset/green_tripdata_2013-09.parquet
+
+## Task 2
+
+- Load the GreenTrip data from Parquet
+- Running with command
+
+```bash
+ python hot_encoding.py
+```
+
+Output result stored at:
+=> dataset/augmented_green_tripdata_2013-09.parquet
