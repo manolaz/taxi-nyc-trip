@@ -38,10 +38,15 @@ we can divide the JFK Airport to N x M zones
 - ZONE CODE could be Hashing by LONGITUDE and Latitude of PICKUP of Dropoff localtion
 
 Example:
-ZONE A1 if
+mapped to ZONE A1 if
 
 - LONG between [-73.9524 ... -73.9526]
 - LAT between [40.8107 ... 40.8108]
+
+mapped to ZONE C3 if
+
+- LONG between [-73.9533 ... -73.9535]
+- LAT between [40.8060 ... 40.8062]
 
 Output result stored at:
 => dataset/augmented_green_tripdata_2013-09.parquet
